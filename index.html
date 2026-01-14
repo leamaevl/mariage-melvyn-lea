@@ -5,15 +5,13 @@
   <title>Mariage de Melvyn & Léa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ANIMATION DE RÉVÉLATION -->
+<!-- ÉCRIN DE RÉVÉLATION -->
 <div id="reveal">
   <div class="reveal-left"></div>
   <div class="reveal-right"></div>
@@ -21,7 +19,7 @@
   <div class="light-glow"></div>
 </div>
 
-<!-- HEADER VIDEO -->
+<!-- HERO -->
 <header class="hero">
   <video autoplay muted loop playsinline>
     <source src="assets/video/accueil.mp4" type="video/mp4">
@@ -34,3 +32,24 @@
       Mariage de<br>
       Melvyn & Léa
     </h1>
+
+    <p class="date">13 juillet 2027</p>
+
+    <a href="#rsvp" class="btn">RSVP</a>
+  </div>
+</header>
+
+<!-- RSVP -->
+<section id="rsvp" class="section slide-up">
+  <h2>RSVP</h2>
+
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLScnCAB681gcFx3aHf8eUG115cHrQWzZNecXfxo7Y2ogiK19Iw/viewform?embedded=true"
+    width="100%"
+    height="900">
+  </iframe>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
