@@ -72,7 +72,7 @@ body {
 /* TITRE RSVP */
 .section h2 {
   font-family: 'Great Vibes', cursive;
-  color: #2aa198;
+  color: #50C878;
   font-size: 52px;
   text-align: center;
 }
@@ -138,4 +138,5 @@ body {
   inset: 0;
   background: radial-gradient(circle, rgba(255,215,160,0.3), transparent);
 }
+
 
