@@ -41,7 +41,7 @@ body {
 /* TITRE */
 .hero-box h1 {
   font-family: 'Great Vibes', cursive;
-  color: #2aa198;
+  color: #50C878;
   font-size: 62px;
   line-height: 1.15;
   margin: 0 0 22px;
@@ -138,3 +138,4 @@ body {
   inset: 0;
   background: radial-gradient(circle, rgba(255,215,160,0.3), transparent);
 }
+
